@@ -18,7 +18,7 @@ This file contain the main program. It have three implementation:
 
 -CPU implementation, which is the original impleentation of the algorithm.
 
--GPU Basic, Is a working implementation of the gaussianBlur that split the operations in the three color channels.
+-GPU Basic implementation, Is a working implementation of the gaussianBlur that split the operations in the three color channels.
 
--GPU, Is a attempt to optimize the algorithm using the cuda nodes cache. But it does work properly and need to be debug.
+-GPU implementation, Is a attempt to optimize the algorithm using the cuda nodes cache. But it does work properly and need to be debug.
 
