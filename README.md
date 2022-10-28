@@ -3,13 +3,13 @@
 ## compile.sh
 This file have the code to run the gaussianBlur program.
 
-## stb_image and  stb_imagen_write
+## stb_image.h and  stb_imagen_write.h
 Are package with the funtions to read and write a imagen.
 
-## facultad
+## facultad.png
 this png is the imagen that I use as example
 
-## ref
+## ref.png
 Is an example of the correct result that the program have to return us.
 
 ## gaussianBlur.cu
