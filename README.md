@@ -1,1 +1,22 @@
 # GaussianBlur_Cuda
+
+## compile.sh
+This file have the code to run the gaussianBlur program.
+
+## stb_image and  stb_imagen_write
+Are package with the funtions to read and write a imagen.
+
+## facultad
+this png is the imagen that I use as example
+
+## ref
+Is an example of the correct result that the program have to return us.
+
+## gaussianBlur.cu
+
+This file contain the main program. It have three implementation:
+
+-CPU implementation, which is the original impleentation of the algorithm.
+-GPU Basic, Is a working implementation of the gaussianBlur that split the operations in the three color channels
+-GPU, Is a attempt to optimize the algorithm using the cuda nodes cache. But it does work properly and need to be debug.
+
